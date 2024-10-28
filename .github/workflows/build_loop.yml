@@ -249,7 +249,6 @@ jobs:
           token: ${{ secrets.GH_PAT }}
           submodules: recursive
           ref: ${{ env.TARGET_BRANCH }}
-
       - name: Customize Loop
         run: |
 
