@@ -276,7 +276,20 @@ jobs:
           # and make sure to specify the submodule by setting "--directory=(submodule_name)".
           # Several patches may be added per submodule.
           # Adding comments (#) may be useful to easily tell the individual patches apart.
-
+          dexcom_upload_readings \
+          future_carbs_4h \
+          
+          
+          override_sens \
+          now_line \
+          lnl_icon \
+          watch_title \
+          
+          meal_days \
+          meal_week \
+          profiles \
+          basal_lock \
+          live_activity
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
         run: |
